@@ -1,6 +1,8 @@
 # XYW8AnimationIndicatorView
 A Windows startup  indicatorviewStyle for iOS with Objective-C delegate support
 
+iOS 仿照windows10 开机动画做的一个indicator view视图 动画效果体验极佳
+
 #Short Cut
 ![Flipboard playing multiple GIFs](https://github.com/levinXiao/XYW8AnimationIndicatorView/raw/master/XYW8IndicatorView.gif)
 
@@ -70,7 +72,11 @@ A Windows startup  indicatorviewStyle for iOS with Objective-C delegate support
 
 ```
 
+##Question
+if any question or bug  email me with xiaoamani@qq.com China
+
 #中文
+
 ##使用说明
 
 ###初始化和开始动画
