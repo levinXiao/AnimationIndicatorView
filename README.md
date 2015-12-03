@@ -1,6 +1,9 @@
 # XYW8AnimationIndicatorView
 A Windows startup  indicatorviewStyle for iOS with Objective-C delegate support
 
+#Short Cut
+![Flipboard playing multiple GIFs](https://github.com/levinXiao/XYW8AnimationIndicatorView/raw/master/XYW8IndicatorView.gif)
+
 #English
 ##How to Use
 
