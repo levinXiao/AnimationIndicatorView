@@ -9,7 +9,7 @@ iOS 仿照windows10 开机动画做的一个indicator view视图 动画效果体
 #English
 ##How to Use
 
-###alloc and satrt animation
+###alloc and start animation
 ```
     XYW8IndicatorView *animationView = [[XYW8IndicatorView alloc] init];
     animationView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.5];
@@ -37,7 +37,7 @@ iOS 仿照windows10 开机动画做的一个indicator view视图 动画效果体
 ``` 
 @interface XYW8IndicatorView : UIView
 
-//set the animating dot backgroundcolor default or nil  set to [UIColor grayColor]
+//set the animating dot backgroundcolor default  set to [UIColor grayColor] if nil also set to [UIColor grayColor]
 @property (nonatomic,strong) UIColor *dotColor;
 
 //set the loadingLabel  default set the text to @"loading"
@@ -57,14 +57,14 @@ iOS 仿照windows10 开机动画做的一个indicator view视图 动画效果体
 
 @optional
 
-//call when clicked background view  in here you can cut off background network requset
+//called when clicked background view  in here you can cut off background network requset
 - (void)indicatorViewDidTapBakground:(XYW8IndicatorView *)indicatorView;
 
-//call when the animation will/did start
+//called when the animation will/did start
 - (void)indicatorViewWillStartAnimating:(XYW8IndicatorView *)indicatorView;
 - (void)indicatorViewDidStartAnimating:(XYW8IndicatorView *)indicatorView;
 
-//call when the animation will/did end
+//called when the animation will/did end
 - (void)indicatorView:(XYW8IndicatorView *)indicatorView willEndAnimating:(BOOL)animted;
 - (void)indicatorView:(XYW8IndicatorView *)indicatorView didEndAnimating:(BOOL)animted;
 
