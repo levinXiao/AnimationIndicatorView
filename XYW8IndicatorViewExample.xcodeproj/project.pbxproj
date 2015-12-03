@@ -13,6 +13,7 @@
 		B89371C31C0EF71400B14D3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89371C11C0EF71400B14D3E /* Main.storyboard */; };
 		B89371C51C0EF71400B14D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B89371C41C0EF71400B14D3E /* Assets.xcassets */; };
 		B89371C81C0EF71400B14D3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89371C61C0EF71400B14D3E /* LaunchScreen.storyboard */; };
+		B89371D21C0EF7D800B14D3E /* XYW8IndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B89371D11C0EF7D800B14D3E /* XYW8IndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B89371C41C0EF71400B14D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B89371C71C0EF71400B14D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B89371C91C0EF71400B14D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B89371D01C0EF7D800B14D3E /* XYW8IndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYW8IndicatorView.h; sourceTree = "<group>"; };
+		B89371D11C0EF7D800B14D3E /* XYW8IndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYW8IndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		B89371B71C0EF71400B14D3E /* XYW8IndicatorViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				B89371CF1C0EF7A700B14D3E /* XYW8IndicatorView */,
 				B89371BB1C0EF71400B14D3E /* AppDelegate.h */,
 				B89371BC1C0EF71400B14D3E /* AppDelegate.m */,
 				B89371BE1C0EF71400B14D3E /* ViewController.h */,
@@ -77,6 +81,15 @@
 				B89371B91C0EF71400B14D3E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B89371CF1C0EF7A700B14D3E /* XYW8IndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				B89371D01C0EF7D800B14D3E /* XYW8IndicatorView.h */,
+				B89371D11C0EF7D800B14D3E /* XYW8IndicatorView.m */,
+			);
+			path = XYW8IndicatorView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			files = (
 				B89371C01C0EF71400B14D3E /* ViewController.m in Sources */,
 				B89371BD1C0EF71400B14D3E /* AppDelegate.m in Sources */,
+				B89371D21C0EF7D800B14D3E /* XYW8IndicatorView.m in Sources */,
 				B89371BA1C0EF71400B14D3E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +314,7 @@
 				B89371CE1C0EF71400B14D3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
