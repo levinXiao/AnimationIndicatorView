@@ -35,12 +35,14 @@
 @protocol XYW8IndicatorViewDelegate <NSObject>
 
 @optional
-
+//call when clicked background view  in here you can cut off background network requset
 - (void)indicatorViewDidTapBakground:(XYW8IndicatorView *)indicatorView;
 
+//call when the animation will/did start
 - (void)indicatorViewWillStartAnimating:(XYW8IndicatorView *)indicatorView;
 - (void)indicatorViewDidStartAnimating:(XYW8IndicatorView *)indicatorView;
 
+//call when the animation will/did end
 - (void)indicatorView:(XYW8IndicatorView *)indicatorView willEndAnimating:(BOOL)animted;
 - (void)indicatorView:(XYW8IndicatorView *)indicatorView didEndAnimating:(BOOL)animted;
 
