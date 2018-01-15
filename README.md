@@ -3,13 +3,13 @@ A Windows startup  indicatorviewStyle for iOS with Objective-C delegate support
 
 iOS 仿照windows10 开机动画做的一个indicator view视图 动画效果体验极佳
 
-#Short Cut
+# Short Cut
 ![Flipboard playing multiple GIFs](https://github.com/levinXiao/XYW8AnimationIndicatorView/raw/master/XYW8IndicatorView.gif)
 
-#English
-##How to Use
+# English
+## How to Use
 
-###alloc and start animation
+### alloc and start animation
 ```
     XYW8IndicatorView *animationView = [[XYW8IndicatorView alloc] init];
     animationView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.5];
@@ -22,7 +22,7 @@ iOS 仿照windows10 开机动画做的一个indicator view视图 动画效果体
     
 ```
 
-###stop the animation
+### stop the animation
 
 ``` 
 - (void)stopAnimating:(BOOL)animated;
@@ -32,7 +32,7 @@ iOS 仿照windows10 开机动画做的一个indicator view视图 动画效果体
     
 ```
 
-###propertys
+### propertys
 
 ``` 
 @interface XYW8IndicatorView : UIView
@@ -51,7 +51,7 @@ iOS 仿照windows10 开机动画做的一个indicator view视图 动画效果体
     
 ```
 
-##Full Delegate Support
+## Full Delegate Support
 ```
 @protocol XYW8IndicatorViewDelegate <NSObject>
 
@@ -72,14 +72,14 @@ iOS 仿照windows10 开机动画做的一个indicator view视图 动画效果体
 
 ```
 
-##Question
+## Question
 if any question or bug  email me with xiaoamani@qq.com China
 
-#中文
+# 中文
 
-##使用说明
+## 使用说明
 
-###初始化和开始动画
+### 初始化和开始动画
 ```
     XYW8IndicatorView *animationView = [[XYW8IndicatorView alloc] init];
     animationView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.5];
@@ -92,7 +92,7 @@ if any question or bug  email me with xiaoamani@qq.com China
     
 ```
 
-###停止动画
+### 停止动画
 
 ``` 
 - (void)stopAnimating:(BOOL)animated;
@@ -102,7 +102,7 @@ if any question or bug  email me with xiaoamani@qq.com China
     
 ```
 
-###propertys
+### propertys
 
 ``` 
 @interface XYW8IndicatorView : UIView
@@ -124,7 +124,7 @@ if any question or bug  email me with xiaoamani@qq.com China
     
 ```
 
-##支持delegate
+## 支持delegate
 ```
 @protocol XYW8IndicatorViewDelegate <NSObject>
 
